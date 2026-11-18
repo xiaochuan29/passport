@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f0dc">
+  <title>Dream Passport | CFSGE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#" data-nav="home" aria-label="CFSGE home"><span class="brand-leaf">✿</span><span>CFSGE</span></a>
+      <nav class="top-links" aria-label="Main navigation">
+        <button data-nav="home">Home</button>
+        <button data-nav="explore">Explore</button>
+        <button data-nav="about">About</button>
+        <button data-nav="help">Help</button>
+      </nav>
+      <button class="profile-chip" id="profileChip" data-nav="passport"><span id="chipBear">🐻</span><span id="chipName">Guest</span><span>⌄</span></button>
+    </header>
+
+    <main id="app" class="main-content">
+      <!-- Rendered by app.js -->
+    </main>
+
+    <footer class="footer"><span>CFSGE · A little journey can make a big difference.</span><span>Dream Passport prototype</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
